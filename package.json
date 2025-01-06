@@ -1,6 +1,6 @@
 {
   "name": "react-native-doublepress",
-  "version": "0.1.0",
+  "version": "1.0",
   "description": "A lightweight and customizable React Native package to easily implement double-press functionality. This package allows you to handle single press and double press gestures on any component seamlessly, with built-in flexibility and performance.",
   "source": "./src/index.tsx",
   "main": "./lib/commonjs/index.js",
@@ -37,7 +37,8 @@
     "!**/.*"
   ],
   "scripts": {
-    "example": "yarn workspace react-native-doublepress-example",
+    "android": "yarn workspace react-native-doublepress-example android",
+    "ios": "yarn workspace react-native-doublepress-example ios",
     "test": "jest",
     "typecheck": "tsc",
     "lint": "eslint \"**/*.{js,ts,tsx}\"",
