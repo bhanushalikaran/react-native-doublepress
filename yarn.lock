@@ -1619,6 +1619,35 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@bhanushalikaran/react-native-doublepress@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "@bhanushalikaran/react-native-doublepress@workspace:."
+  dependencies:
+    "@commitlint/config-conventional": ^17.0.2
+    "@evilmartians/lefthook": ^1.5.0
+    "@react-native-community/cli": ^15.1.3
+    "@react-native/eslint-config": ^0.73.1
+    "@release-it/conventional-changelog": ^9.0.2
+    "@types/jest": ^29.5.5
+    "@types/react": ^18.2.44
+    commitlint: ^17.0.2
+    del-cli: ^5.1.0
+    eslint: ^8.51.0
+    eslint-config-prettier: ^9.0.0
+    eslint-plugin-prettier: ^5.0.1
+    jest: ^29.7.0
+    prettier: ^3.0.3
+    react: 18.3.1
+    react-native: 0.76.5
+    react-native-builder-bob: ^0.32.0
+    release-it: ^17.10.0
+    typescript: ^5.2.2
+  peerDependencies:
+    react: "*"
+    react-native: "*"
+  languageName: unknown
+  linkType: soft
+
 "@commitlint/cli@npm:^17.8.1":
   version: 17.8.1
   resolution: "@commitlint/cli@npm:17.8.1"
@@ -2018,9 +2047,9 @@ __metadata:
   linkType: hard
 
 "@expo/config-types@npm:^52.0.0":
-  version: 52.0.1
-  resolution: "@expo/config-types@npm:52.0.1"
-  checksum: eff316abcf9244b880eb40b6eb51f9924973d833148a30084bf76aa33add144822a97a7eefe0c1c24cce3c4951d21f39b980db247944ce0f9c02b397412a3c48
+  version: 52.0.2
+  resolution: "@expo/config-types@npm:52.0.2"
+  checksum: 08b3bb319b15c3b547de4988ebf15e159d671d83264c85146ac39e4dc4d711287a7af76fdd535262dcd34dcc8a95aadd675a69c9973491c3f08c4f67ee9891cd
   languageName: node
   linkType: hard
 
@@ -2173,8 +2202,8 @@ __metadata:
   linkType: hard
 
 "@expo/package-manager@npm:^1.5.0":
-  version: 1.6.1
-  resolution: "@expo/package-manager@npm:1.6.1"
+  version: 1.7.0
+  resolution: "@expo/package-manager@npm:1.7.0"
   dependencies:
     "@expo/json-file": ^9.0.0
     "@expo/spawn-async": ^1.7.2
@@ -2188,7 +2217,7 @@ __metadata:
     resolve-workspace-root: ^2.0.0
     split: ^1.0.1
     sudo-prompt: 9.1.1
-  checksum: 5271d9e1eb83d42b353c0412b422bf5bcf16181b32ad3d1f24291e9f111d4ac18d0bd120d7aae524f07880b020eaefd51ef7439cfdc8dd3c07add983ed38e32b
+  checksum: b67d6bac98e8eb2cfaf6b417fc5afc45aee6556d1238e6e30fe838cbff66544327bbd5771037637684a0725ac198d4d2aadd2e613a0613654c8050abdb0771e8
   languageName: node
   linkType: hard
 
@@ -6070,9 +6099,9 @@ __metadata:
   linkType: hard
 
 "electron-to-chromium@npm:^1.5.73":
-  version: 1.5.76
-  resolution: "electron-to-chromium@npm:1.5.76"
-  checksum: bbd6337f92fc07e0b7fcc5473265d080964adf59b7a58503ddd6d954d0494d0a6e1540dd35f5aa6229f6b87541c3436e0c15c63d2d71fa4b66a05adc88bd2fb9
+  version: 1.5.78
+  resolution: "electron-to-chromium@npm:1.5.78"
+  checksum: 84034073990470a9bad79bbe9c7b3fcc7a92aea9ccb745ce411415562e2112ad089e924817c7e34ba9e08e581b9fc88f33c3acdc6d6ef2812d559bd5cfb6f801
   languageName: node
   linkType: hard
 
@@ -12220,35 +12249,6 @@ __metadata:
     react-native: 0.76.5
     react-native-builder-bob: ^0.32.0
     react-native-web: ~0.19.13
-  languageName: unknown
-  linkType: soft
-
-"react-native-doublepress@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "react-native-doublepress@workspace:."
-  dependencies:
-    "@commitlint/config-conventional": ^17.0.2
-    "@evilmartians/lefthook": ^1.5.0
-    "@react-native-community/cli": ^15.1.3
-    "@react-native/eslint-config": ^0.73.1
-    "@release-it/conventional-changelog": ^9.0.2
-    "@types/jest": ^29.5.5
-    "@types/react": ^18.2.44
-    commitlint: ^17.0.2
-    del-cli: ^5.1.0
-    eslint: ^8.51.0
-    eslint-config-prettier: ^9.0.0
-    eslint-plugin-prettier: ^5.0.1
-    jest: ^29.7.0
-    prettier: ^3.0.3
-    react: 18.3.1
-    react-native: 0.76.5
-    react-native-builder-bob: ^0.32.0
-    release-it: ^17.10.0
-    typescript: ^5.2.2
-  peerDependencies:
-    react: "*"
-    react-native: "*"
   languageName: unknown
   linkType: soft
 

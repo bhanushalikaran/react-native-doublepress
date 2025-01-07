@@ -19,7 +19,10 @@ We are excited to release **Version 1** of the React Native DoublePress library:
 Add the dependency:
 
 ```bash
-npm i react-native-doublepress
+npm i @bhanushalikaran/react-native-doublepress
+OR
+yarn add @bhanushalikaran/react-native-doublepress
+
 ```
 
 ---
@@ -29,7 +32,7 @@ npm i react-native-doublepress
 ## Import
 
 ```tsx
-import DoublePress from "react-native-doublepress";
+import DoublePress from "@bhanushalikaran/react-native-doublepress";
 ```
 
 ## Basic Usage
@@ -72,12 +75,6 @@ Wrap any component inside the **DoublePress** component to add bounce effects an
 | bouncinessOut      |  number  |     0     | Determines the "bounciness" when released                |
 | useNativeDriver    | boolean  |   true    | Determines if the animation should use the native driver |
 | style              |  style   | undefined | Custom style for the wrapper container                   |
-
----
-
-# Author
-
-Karan Bhanushali, karannakhua123@gmail.com
 
 ---
 
